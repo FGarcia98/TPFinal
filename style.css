@@ -1,297 +1,418 @@
 /* GENERAL */
-*
-{
-    margin: 0; /* We put the values ​​to zero */
+
+* {
+    margin: 0;
+    /* We put the values ​​to zero */
     padding: 0;
 }
-ul li
- {
-    list-style:none;
-    margin-left:0;
-    padding-left:0;
+
+ul li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
     font-weight: bold;
-    }
+}
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
 
- body
- {
-   font-family: Arial,sans-serif;
-   font-size: 15px;
- 
-   
- }
-h1 
-{
-    font-family: 'crete round', serif; 
+h1 {
+    font-family: 'crete round', serif;
     font-size: 45px;
     color: #444;
 }
-h2
-{
-   
+
+h2 {
     font-size: 55px;
 }
-a
-{
-    text-decoration: none; 
+
+a {
+    text-decoration: none;
     color: #444;
 }
 
-
-p
-{
+p {
     font-size: 20px;
 }
 
-.color
-{
-    color:#000;
+.color {
+    color: #000;
 }
 
-.wrapper
-{
-   
-    margin: 0 80px 0 80px; /* aucune marge en haut et en bas et grace a auto il se recentre */
-    padding: 0 10px; /* le contenu ne sera pas coller*/
-    background-color:rgba(255, 255, 255, 0.205);
+.wrapper {
+    padding-right: 0px;
+    padding-bottom: 75px;
+    padding-left: 0px;
+    background-color: rgba(255, 255, 255, 0.205);
     box-shadow: 1px 1px 12px rgb(255, 255, 255);
-    
     font-family: 'crete round', serif;
-
 }
 
-.wrapperExperiment
-{
-    
-    width: 940px;  /* nos conteneur invisible on une largeur 940 px */
-    margin: 0 auto; /* aucune marge en haut et en bas et grace a auto il se recentre */
-    padding: 20px; /* le contenu ne sera pas coller*/
-    background-color:rgba(255, 255, 255, 0.205);
-   
+.wrapperExperiment {
+    width: 940px;
+    /* nos conteneur invisible on une largeur 940 px */
+    margin: 0 auto;
+    /* aucune marge en haut et en bas et grace a auto il se recentre */
+    padding: 20px;
+    /* le contenu ne sera pas coller*/
+    background-color: rgba(255, 255, 255, 0.205);
     font-family: 'Turret Road', cursive;
-
 }
-.wrapperTraining
-{
-    
-    width: 940px;  /* nos conteneur invisible on une largeur 940 px */
-    margin: 0 auto; /* aucune marge en haut et en bas et grace a auto il se recentre */
-    padding: 20px; /* le contenu ne sera pas coller*/
-    background-color:rgba(255, 255, 255, 0.205);
+
+.wrapperTraining {
+    width: 940px;
+    /* nos conteneur invisible on une largeur 940 px */
+    margin: 0 auto;
+    /* aucune marge en haut et en bas et grace a auto il se recentre */
+    padding: 20px;
+    /* le contenu ne sera pas coller*/
+    background-color: rgba(255, 255, 255, 0.205);
     font-family: 'Turret Road', cursive;
-
 }
 
-.wrapperSkils
-{
-    width: 940px;  /* nos conteneur invisible on une largeur 940 px */
-    margin: 0 auto; /* aucune marge en haut et en bas et grace a auto il se recentre */
-    padding: 20px; /* le contenu ne sera pas coller*/
-    background-color:rgba(255, 255, 255, 0.205);
-
+.wrapperSkils {
+    width: 940px;
+    /* nos conteneur invisible on une largeur 940 px */
+    margin: 0 auto;
+    /* aucune marge en haut et en bas et grace a auto il se recentre */
+    padding: 20px;
+    /* le contenu ne sera pas coller*/
+    background-color: rgba(255, 255, 255, 0.205);
     font-family: 'Turret Road', cursive;
-
 }
-.wrapperContact
-{
-    width: 940px;  /* nos conteneur invisible on une largeur 940 px */
-    margin: 0 auto; /* aucune marge en haut et en bas et grace a auto il se recentre */
-    padding: 20px; /* le contenu ne sera pas coller*/
-    background-color:rgba(84, 176, 199, 0.205);
+
+.wrapperContact {
+    width: 940px;
+    /* nos conteneur invisible on une largeur 940 px */
+    margin: 0 auto;
+    /* aucune marge en haut et en bas et grace a auto il se recentre */
+    padding: 20px;
+    /* le contenu ne sera pas coller*/
+    background-color: rgba(84, 176, 199, 0.205);
     box-shadow: 1px 1px 12px #555;
     font-family: 'Turret Road', cursive;
-
 }
 
+.wrapperLivre {
+    width: auto;
+    /* nos conteneur invisible on une largeur 940 px */
+    margin: 0 auto;
+    /* aucune marge en haut et en bas et grace a auto il se recentre */
+    padding: 20px;
+    /* le contenu ne sera pas coller*/
+    text-align: center;
+    font-family: 'crete round', serif;
+    background-image: linear-gradient(180deg, #0294dd 0%, #01148e 100%);
+    color: aliceblue;
+}
 
-.orange{
+.img {
+    max-width: 500px;
+    margin: 2rem auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.orange {
     color: #ff7a00;
 }
 
 
 /* HEADER */
 
-header
-{
-    height: 120px; /* Hauteur de 120px */
+header {
+    height: 120px;
+    /* Hauteur de 120px */
 }
-header h1
-{
-    float: left;        /* Il flotte a gauche, marge en haut de 32 px*/
-    margin-top: 32px; 
-    margin-right: 20px; 
-}
-header nav
-{
-    float: right; /* Menu a droite */
-    margin-top: 50px; /* 50px de marge du haut */
-  
-}
-header nav ul li
-{
-   
 
-display: inline-block;  /* Menu horizontale*/
+header h1 {
+    float: left;
+    /* Il flotte a gauche, marge en haut de 32 px*/
+    margin-top: 32px;
+    margin-right: 20px;
 }
-header nav ul li a
-{
-    text-transform: uppercase; /* Menu en majuscule */
-    font-weight: bold; /* Police en gras */
-    margin-right: 20px; /* marge etre les onglets des menus */
+
+header nav {
+    float: right;
+    /* Menu a droite */
+    margin-top: 50px;
+    /* 50px de marge du haut */
 }
+
+header nav ul li {
+    display: inline-block;
+    /* Menu horizontale*/
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    /* Menu en majuscule */
+    font-weight: bold;
+    /* Police en gras */
+    margin-right: 20px;
+    /* marge etre les onglets des menus */
+}
+
 
 /* MAIN-IMAGE */
+
 #main-image {
- height: 580px ;
-background: url('image/fond.jpg') center;
-
-    }
-#main-image h2
-    {
-        text-transform: uppercase;
-        text-align: center;
-        padding: 150px 0 40px 0;
-    }
-
- /* LIVRE */
- *{box-sizing:border-box}
-
-img{
-
-max-width: 100%;
-
+    height: 580px;
+    background: url('image/fond.jpg') center;
 }
 
+#main-image h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+}
+
+
+/* LIVRE */
+
+* {
+    box-sizing: border-box
+}
+
+img {
+    max-width: 100%;
+}
+
+.img {
+    max-width: 500px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.img h2 {
+    text-align: center;
+    font-family: 'crete round', serif;
+    color: #ff7a00;
+}
+
+
 /*pour le saut de page, on cree une class que l'on met en display:none*/
-.target{
 
-display: none
-
+.target {
+    display: none
 }
 
 
 /* englobe le slider */
 
-.cadre_diapo{
-
-max-width: 500px;
-margin: 2rem auto;
-overflow: hidden;
-
+.cadre_diapo {
+    max-width: 500px;
+    margin: 2rem auto;
+    overflow: hidden;
 }
 
-.interieur_diapo{
-
-display: flex;
-width: 400%;
-transition: transform .6s ease-in-out
-
+.interieur_diapo {
+    display: flex;
+    width: 400%;
+    transition: transform .6s ease-in-out
 }
 
-.description{
-
-position: relative;
-
+.description {
+    position: relative;
 }
 
-.description span{
+.description span {
+    position: absolute;
+    left: 0;
+    top: 2%;
+    font-size: 75%;
+    display: flex;
+    padding: .5rem;
+    justify-content: center;
+    color: white;
+    background: hsla(0, 0%, 0%, .35)
+}
 
-position: absolute;
-left: 0;
-top: 2%;
-font-size: 75%;
-display: flex;
-padding: .5rem;
-justify-content: center;
-color: white;
-background: hsla(0,0%,0%,.35)
-
+#id1:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(0)
 }
 
 
-#votre_id1:target ~ .cadre_diapo .interieur_diapo{
+/*image 1*/
 
-transform:translatex(0)
-
-}/*image 1*/
-
-#votre_id2:target ~ .cadre_diapo .interieur_diapo{
-
-transform:translatex(-25%)
-
-}/*image 2*/
-
-#votre_id3:target ~ .cadre_diapo .interieur_diapo{
-
-transform:translatex(-50%)
-
-}/*image 3*/
-
-#votre_id4:target ~ .cadre_diapo .interieur_diapo{
-
-transform:translatex(-75%)
-
-}/*image 4*/
-#votre_id5:target ~ .cadre_diapo .interieur_diapo{
-
-    transform:translatex(-100%)
-    
-    }/*image 5*/
-    #votre_id6:target ~ .cadre_diapo .interieur_diapo{
-
-        transform:translatex(-125%)
-        
-        }/*image 6*/
-        #votre_id7:target ~ .cadre_diapo .interieur_diapo{
-
-            transform:translatex(-150%)
-            
-            }/*image 7*/
-            #votre_id8:target ~ .cadre_diapo .interieur_diapo{
-
-                transform:translatex(-175%)
-                
-                }/*image 8*/
-            
-        
-    
+#id2:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-25%)
+}
 
 
+/*image 2*/
+
+#id3:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-50%)
+}
+
+
+/*image 3*/
+
+#id4:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-75%)
+}
+
+
+/*image 4*/
+
+#id5:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-100%)
+}
+
+
+/*image 5*/
+
+#id6:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-125%)
+}
+
+
+/*image 6*/
+
+#id7:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-150%)
+}
+
+
+/*image 7*/
+
+#id8:target~.cadre_diapo .interieur_diapo {
+    transform: translatex(-175%)
+}
+
+
+/*image 8*/
 
 
 /*navigation avec images miniatures*/
-.navigation_diapo{
 
-display: flex; /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
-list-style-type: none;
-margin: 0;
-padding: 0
-
+.navigation_diapo {
+    display: flex;
+    /*permet d'aligner les photos les unes à la suite des autres, on peut aussi utiliser le positionnement absolu*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation_diapo li {
-
-padding: .25rem;
-
+    padding: .25rem;
 }
 
-.navigation_diapo img{
-
-border: 3px solid white;
-box-shadow:0 0 5px hsla(0,0%,0%,.4);
-
-
+.navigation_diapo img {
+    border: 3px solid white;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, .4);
 }
 
-
-@media (min-width:31.25rem){
-
-.description span{
-
-font-size: initial
-
-}
-
+@media (min-width:31.25rem) {
+    .description span {
+        font-size: initial
+    }
 }
 
 
+/* VIDEO */
+
+.embedresize {
+    /* Centrer la video*/
+    max-width: 560px;
+    margin: auto;
+}
+
+.embedresize div {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.embedresize iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intro #intro .embedresize iframe,
+.exit .quizz .embedresize iframe,
+.alreadyplayed #intro .embedresize iframe,
+.identityset #intro .embedresize iframe,
+#notabene .embedresize iframe,
+#message_intro .embedresize iframe,
+.fancybox_body .embedresize iframe,
+#comments .embedresize iframe,
+#description .embedresize iframe,
+.alreadyplayed .embedresize iframe,
+#adserver .embedresize iframe {
+    max-width: none !important;
+}
+
+
+/* TRADUCTION */
+
+#translator {
+    float: left;
+    max-width: 4%;
+}
+
+
+/* FORMULAIRE */
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    width: 90px;
+    float: left;
+}
+
+input,
+textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+}
+
+textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+}
+
+.button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    text-align: center;
+    /* même taille que les étiquettes */
+}
+
+button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+}
