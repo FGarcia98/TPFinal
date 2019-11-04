@@ -41,6 +41,16 @@ p {
     color: #000;
 }
 
+.wrapperHeader {
+    background-color: white;
+    font-family: 'crete round', serif;
+    float: left;
+}
+
+.wrapperHeader h1 {
+    margin-left: auto;
+}
+
 .wrapper {
     padding-right: 0px;
     padding-bottom: 75px;
